@@ -12,7 +12,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
@@ -27,4 +26,8 @@ body {
 img {
 	display: block;
 	width: 100%;
+}
+
+h2 {
+  font-family: helvetica, arial, sans-serif;
 }
