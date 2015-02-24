@@ -21,6 +21,7 @@ html {
 body {
   margin: 5%;
   padding: 0;
+  background-color: rgb(250,250,250);
 }
 
 img {
@@ -34,13 +35,19 @@ h2 {
   font-size: 2em;
   font-weight: 800;
   margin-bottom: 0;
+  color: darkred;
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   font-weight: 600;
-  margin-top: .5em;
+  margin-top: .2em;
+  margin-bottom: .2em;
+}
+
+dl {
+  margin-top: 0;
 }
 
 dt {
@@ -51,7 +58,7 @@ dt {
 dd {
   font-weight: 300;
   font-family: 'Open Sans', sans-serif;
-  margin-left: 4em;
+  padding-bottom: .5em;
 }
 
 
