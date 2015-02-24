@@ -29,5 +29,31 @@ img {
 }
 
 h2 {
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'univers', arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0;
 }
+
+h4 {
+  font-family: 'univers', arial, sans-serif;
+  font-weight: 200;
+  margin-top: .5em;
+}
+
+dt {
+  font-family: 'univers', arial, sans-serif;
+}
+
+dd {
+  font-family: 'univers', arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
