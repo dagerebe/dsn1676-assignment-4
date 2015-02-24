@@ -27,7 +27,7 @@ var redcurrant = {
 var writeFruit = function (fruit) {
 	fruit.forEach(function (item) {
 		document.write('<h2>' + item.name + '</h2>');
-		document.write('<h4>' + item.name2 + '</h4>');
+		document.write('<h3>' + item.name2 + '</h3>');
 		document.write('<dl>');
 		document.write('<dt>Grows On Shrub:</dt><dd>' + item.grows_on_shrub + '</dd>');
 		document.write('<dt>Energy:</dt><dd>' + item.energy + '</dd>');
