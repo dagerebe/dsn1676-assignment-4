@@ -1,36 +1,33 @@
 var blueberries = {
-	name: 'Blueberries',
 	name: 'Vaccinium corymbosum',
-	Grows on shrub: 'Yes',
-	Energy: '240 kJ',
-	Carbohydrates: '14.49 g',
-	Protein: '0.74 g',
+	grows_on_shrub: 'Yes',
+	energy: '240 kJ',
+	carbohydrates: '14.49 g',
+	protein: '0.74 g',
 };
 var grapes = {
-	name: 'Grapes',
 	name: 'Vitis vinifera',
-	Grows on shrub: 'No',
-	Energy: '288 kJ',
-	Carbohydrates: '18.1 g',
-	Protein: '0.72 g'
+	grows_on_shrub: 'No',
+	energy: '288 kJ',
+	carbohydrates: '18.1 g',
+	protein: '0.72 g'
 };
 
-var redCurrant = {
-	name: 'Red currant',
-	name: 'ibes rubrum',
-	Grows on shrub: 'Yes',
-	Energy: '234 kJ',
-	Carbohydrates: '13.8 g',
-	Protein: '1.4 g',
+var redcurrant = {
+	name: 'ribes rubrum',
+	grows_on_shrub: 'Yes',
+	energy: '234 kJ',
+	carbohydrates: '13.8 g',
+	protein: '1.4 g',
 };
 
-var fruit = [blueberries, grapes, redCurrant];
+var fruit = [blueberries, grapes, redcurrant];
 
 fruit.forEach(function (item) {
 	document.write('<h2>' + item.name + '</h2>');
 	document.write('<dl>')
-	document.write('<dt>Grows on Shrub:</dt><dd>' + item.Grows on Shrub + '</dd>');
-	document.write('<dt>Energy:</dt><dd>' + item.energy + '</dd>');
-	document.write('<dt>Height:</dt><dd>' + item.height + '</dd>');
-	document.write('</dl>')
+	document.write('<dt>grows_on_hhrub:</dt><dd>' + item.grows_on_shrub + '</dd>');
+	document.write('<dt>energy:</dt><dd>' + item.energy + '</dd>');
+	document.write('<dt>carbohydrates:</dt><dd>' + item.carbohydrates + '</dd>');
+	document.write('<dt>protein:</dt><dd>' + item.protein + '</dd>');
 });
